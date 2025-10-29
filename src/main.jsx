@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router-dom'
 import { AllRoute } from './Routes/route'
 import Loading from './components/Loading'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={AllRoute} fallBackElement={<Loading/>}/>
